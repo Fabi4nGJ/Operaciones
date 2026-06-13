@@ -81,20 +81,45 @@ namespace Operaciones
 
             //Colocar el texto del label1 y cambiar su fuente, color y fondo
             label1.Text = "Inicio";
-            label1.Font = new Font("Roboto", 14, FontStyle.Bold);
-            label1.ForeColor = Color.FromArgb(65, 79, 180);
+            label1.Font = new Font("Roboto", 12, FontStyle.Bold);
+            label1.ForeColor = Color.FromArgb(18, 207, 14);
 
             label2.Text = "Fin";
-            label2.Font = new Font("Roboto", 14, FontStyle.Bold);
-            label2.ForeColor = Color.FromArgb(65, 79, 180);
+            label2.Font = new Font("Roboto", 12, FontStyle.Bold);
+            label2.ForeColor = Color.FromArgb(18, 207, 14);
 
             label3.Text = "Par";
-            label3.Font = new Font("Roboto", 14, FontStyle.Bold);
-            label3.ForeColor = Color.FromArgb(65, 79, 180);
+            label3.Font = new Font("Roboto", 12, FontStyle.Bold);
+            label3.ForeColor = Color.FromArgb(18, 207, 14);
 
-            label3.Text = "Impar";
-            label3.Font = new Font("Roboto", 14, FontStyle.Bold);
-            label3.ForeColor = Color.FromArgb(65, 79, 180);
+            label4.Text = "Impar";
+            label4.Font = new Font("Roboto", 12, FontStyle.Bold);
+            label4.ForeColor = Color.FromArgb(18, 207, 14);
+
+            label5.Text = "+\n"+ "-\n"+ "x\n";
+            label5.Font = new Font("Roboto", 12, FontStyle.Bold);
+            label5.ForeColor = Color.FromArgb(18, 207, 14);
+
+            label6.Text = "Resta";
+            label6.Font = new Font("Roboto", 12, FontStyle.Bold);
+            label6.ForeColor = Color.FromArgb(18, 207, 14);
+
+            label7.Text = "Suma";
+            label7.Font = new Font("Roboto", 12, FontStyle.Bold);
+            label7.ForeColor = Color.FromArgb(18, 207, 14);
+
+            label8.Text = "Multiplicar";
+            label8.Font = new Font("Roboto", 12, FontStyle.Bold);
+            label8.ForeColor = Color.FromArgb(18, 207, 14);
+
+            //Modificacdor de botones
+            materialButton1.Text = "Aceptar";
+            materialButton2.Text = "Realizar Operaciones";
+            materialButton3.Text = "Limpiar";
+
+            //Llenadod de contenedores combobox
+            materialComboBox1.Items.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9"});
+            materialComboBox1.SelectedIndex = 0; //posicionrme en un elemento del comboBox
 
 
         }
