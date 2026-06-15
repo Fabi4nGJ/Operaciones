@@ -8,5 +8,6 @@ namespace Operaciones.Modelo
 {
     internal class Operacion
     {
+        public Operacion() { }
     }
 }
