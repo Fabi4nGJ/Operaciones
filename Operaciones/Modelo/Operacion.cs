@@ -8,6 +8,7 @@ namespace Operaciones.Modelo
 {
     internal class Operacion
     {
+        public Operacion() { }
         public int num1 { get; set; }
         public int num2 {get; set; }
 
