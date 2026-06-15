@@ -17,9 +17,10 @@ namespace Operaciones.Modelo
             get { return numero1; }
             set { numero1 = value; }
         }
-    internal class Operacion
+    }
+    internal class Operacion1
     {
-        public Operacion() { }
+        public Operacion1() { }
         public int num1 { get; set; }
         public int num2 {get; set; }
 
