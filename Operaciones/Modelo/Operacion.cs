@@ -6,6 +6,17 @@ using System.Threading.Tasks;
 
 namespace Operaciones.Modelo
 {
+    public class Operacion
+    {
+        private double numero1;
+        private double numero2;
+        private double numero3;
+
+        public double Numero1
+        {
+            get { return numero1; }
+            set { numero1 = value; }
+        }
     internal class Operacion
     {
         public Operacion() { }
@@ -15,3 +26,4 @@ namespace Operaciones.Modelo
 
     }
 }
+ 
