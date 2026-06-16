@@ -6,25 +6,41 @@ using System.Threading.Tasks;
 
 namespace Operaciones.Modelo
 {
-    public class Operacion
+    public class operaciones
     {
-        private double numero1;
-        private double numero2;
-        private double numero3;
-
-        public double Numero1
+        // Genera una lista de números en un rango dado, filtrando por pares o impares
+        public List<int> GenerarRango(int inicio, int fin, bool esPar)
         {
-            get { return numero1; }
-            set { numero1 = value; }
+            List<int> numeros = new List<int>();
+            for (int i = inicio; i <= fin; i++)
+            {
+                if (esPar && i % 2 == 0)
+                {
+                    numeros.Add(i);
+                } else if (!esPar && i % 2 != 0)
+                {
+                    numeros.Add(i);
+                }
+            }
+            return numeros;
         }
-    }
-    internal class Operacion1
-    {
-        public Operacion1() { }
-        public int num1 { get; set; }
-        public int num2 {get; set; }
 
+        // Métodos para las operaciones matemáticas
+        public int Sumar(int n1, int n2)
+        {
+            return n1 + n2;
+        }
+
+        public int Restar(int n1, int n2)
+        {
+            return n1 - n2;
+        }
+
+        public int Multiplicar(int n1, int n2)
+        {
+            return n1 * n2;
+        }
 
     }
+
 }
- 
